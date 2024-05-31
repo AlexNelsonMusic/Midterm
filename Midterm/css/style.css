@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fff;
+    font-family: "Montserrat",'Open Sans', sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    margin: 0;
+    background-color: #fff;
+}
+header{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.logo{
+    width: auto;
+    margin-left: 50px;
+    color: #4f6ae6;
+    font-size: 2em;
+    font-weight: 500;
+    flex-basis: 30%;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo a:visited{
+    color: #4f6ae6;;
+}
+nav{
+    width: auto;
+    text-align: center;
+    flex-basis: 40%;
+    padding: 15px 75px;
+}
+nav ul li{
+    transition: 0.5s;
+}
+nav ul li:hover{
+    transform: translateY(-0.25em);
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+nav ul li{
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #4f6ae6;
+}
+.socials{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-basis: 30%;
+    width: auto;
+}
+.socials img{
+    width: 50px;
+    padding: 10px;
+    margin-right: 20px;
+    transition: 0.5s;
+    background-color: #00000000;
+}
+.socials a{
+    transition: 0.5s;
+}
+.socials a:hover{
+    transform: translateY(-0.25em);
+}
+.banner{
+    background-image: url(../images/banner.jpg);
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+}
+.bannertext h1{
+    width: 100%;
+    font-size: 3em;
+    font-weight: 500;
+    color: #4f6ae6;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 15%;
+    padding-left: 300px;
+}
+.bannertext p{
+    width: 100%;
+    color: #000;
+    font-size: 25px;
+    line-height: 3;
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 300px;
+    padding-right: 200px;
+    margin-bottom: 50px;
+}
+main{
+    margin-top: 80px;
+    overflow: hidden;
+}
+h2{
+    padding-bottom: 20px;
+}
+h3{
+    padding-bottom: 20px;
+}
+.paragraphs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.paragraphs2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.paragraphs section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 80px;
+    grid-column: 1;
+}
+.right{
+    grid-column: 2;
+}
+.paragraphs img{
+    width: 70%;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.paragraphs2 section{
+    margin: 80px 100px;
+    grid-column: 2;
+}
+.left{
+    grid-column: 1;
+}
+.paragraphs2 img{
+    width: 70%;
+    padding-left: 80px;
+    margin-top: 70px;
+}
+#robot{
+    width: 500px;
+}
+.horipics{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+#pic1{
+    grid-column: 1;
+    box-shadow: 0 20px 40px rgba(8, 0, 0, 0.1);
+    padding: 70px;
+    margin: 100px 0;
+    
+}
+#pic2{
+    grid-column: 2;
+    box-shadow: 0 20px 40px rgba(8, 0, 0, 0.1);
+    padding: 70px;
+    margin: 100px 0;
+}
+#pic3{
+    grid-column: 3;
+    box-shadow: 0 20px 40px rgba(8, 0, 0, 0.1);
+    padding: 70px;
+    margin: 100px 0;
+}
+footer{
+    background-image: url(../images/footer.png);
+    padding: 180px;
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    font-weight: 100;
+}
+footer p{
+    padding-top: 80px;
+}
+#involved{
+    text-decoration: none;
+    background-color: #4f6ae6;
+    padding: 20px;
+    border-radius: 40px;
+    margin-left: 300px;
+    color: #fff;
+    grid-column: 1;
+    transition: 0.5s;
+    position: relative;
+    border: solid 1px #4f6ae6;
+}
+#involved:hover{
+    transform: translateY(-0.25em);
+    color: #4f6ae6;
+    background-color: #fff;
+    transition: opacity 0 1 0.65s;
+    box-shadow: 0px 0px 30px #4f6ae6;
+}
+.learn{
+    text-decoration: none;
+    background-color: #4f6ae6;
+    padding: 20px;
+    border-radius: 40px;
+    margin-left: 80px;
+    color: #fff;
+    grid-column: 1;
+    transition: 0.5s;
+    position: relative;
+    border: solid 1px #4f6ae6;
+}
+.learn:hover{
+    transform: translateY(-0.25em);
+    color: #4f6ae6;
+    background-color: #fff;
+    transition: opacity 0 1 0.65s;
+    box-shadow: 0px 0px 30px #4f6ae6;
+}
+#lastbutton{
+    margin-bottom: 100px;
+}
+.label{
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    display: none;
+}
+#hamburger{
+    display: none;
+}
+@media(max-width: 800px){
+    .label{
+        display: block
+    }
+    .logo{
+        width: auto%;
+        display: block;
+    }
+    .socials{
+        display: none;
+    }
+    nav ul{
+        max-height: 0;
+        overflow: hidden;
+        grid-template-columns: 1fr;
+        width: 100%;
+        background-color: #ffffff00;
+        text-align: left;
+    }
+    nav ul li a{
+        color: #4f6ae6;
+    }
+    header{
+        display: block;
+    }
+    nav ul li ul{
+        display: none;
+    }
+    nav ul li ul li{
+        display: none;
+    }
+    #hamburger:checked +nav ul{
+        display: block;
+        max-height: 300px;
+        transition: all 3s;
+        padding: 0;
+        background-color: #fff;
+    }
+    .bannertext h1{
+        font-size: 50px;
+        padding-left: 175px;
+        margin-bottom: 50px;
+        padding-top: 200px;
+    }
+    .bannertext p{
+        font-size: 20px;
+        padding-left: 175px;
+        margin-bottom: 100px;
+    }
+    aside{
+        display: none;
+    }
+    .paragraphs{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .paragraphs2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .paragraphs section{
+        padding-right: 50px;
+    }
+    #pic1{
+        max-width: 211px;
+        padding: 50px;
+    }
+    #pic2{
+        max-width: 190px;
+        padding: 50px;
+    }
+    #pic3{
+        max-width: 200px;
+        padding: 50px;
+    }
+}
